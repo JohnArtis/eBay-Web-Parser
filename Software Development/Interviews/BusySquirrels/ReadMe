@@ -1,0 +1,7 @@
+One week. Target website: https://www.ebay.com/b/VR-Headsets/183068/bn_55161940
+
+Product name, product id, product url, image url, price (or price range), in stock or out of stock; save all the information into a database (sql or nosql);
+hope to get a scheduler (for loop, cronjob) that get price and stock info every 5 mins for the same product id and save the scraping timestamp as well. 
+
+Table 1 (static): product id, product name, product url, image url
+Table 2 (dynamic, save data every 5 mins): product id, price, stock, timestamp
